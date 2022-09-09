@@ -1,0 +1,19 @@
+name: todo_server
+description: >-
+  A fullstack todo app written purely in dart.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+  
+dependencies: 
+  dart_frog: ^0.1.0 
+  drift: ^2.1.0
+  todo:
+    path: packages/todo
+  
+dev_dependencies:
+  drift_dev: ^2.1.0
+  build_runner: ^2.2.0
+  test: '>=1.15.0 <2.0.0'
